@@ -17,7 +17,7 @@ describe('Express server', () => {
         const response = await mockRequest.get('/data');
 
         expect(response.status).toEqual(200);
-        expect(response.body.name).toEqual('Jacob');
-        expect(response.body.age).toEqual(31);
+        expect(response.body.name).toEqual('Chance');
+        expect(response.body.age).toEqual(35);
     });
 });
